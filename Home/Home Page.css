@@ -1,0 +1,146 @@
+/* Base Styles */
+body {
+  font-family: Inter, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+/* Header Styles */
+.flex-row-bfc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.rectangle {
+  background-color: #e16a38;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+.rectangle-1 {
+  background-color: #d46b30;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+.rectangle-2 {
+  background-color: #c54f3e;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+.rectangle-3 {
+  background-color: #a7402b;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+.portfolio, .home, .about {
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  display: inline-block;
+}
+
+.services {
+  font-size: 40px;
+  font-weight: 600;
+  color: #0b0b0b;
+  background-image: url('./path-to-services-background-image.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  margin-left: auto;
+}
+
+/* Ellipse and Text Sections */
+.rectangle-4 {
+  position: relative;
+  margin-top: 20px;
+}
+
+.ellipse {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #cccccc;
+  margin: 0 auto;
+}
+
+.ernesto-v-torres {
+  display: block;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.software-developer-project-management {
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.contact {
+  display: block;
+  text-align: center;
+  font-size: 16px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 1024px) {
+  .main-container {
+    padding: 10px;
+  }
+
+  .flex-row-bfc {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .portfolio, .home, .about {
+    font-size: 14px;
+    padding: 8px 16px;
+    margin-bottom: 5px;
+  }
+
+  .services {
+    font-size: 30px;
+    padding: 15px;
+  }
+
+  .ellipse {
+    width: 100px;
+    height: 100px;
+  }
+
+  .ernesto-v-torres {
+    font-size: 20px;
+  }
+
+  .software-developer-project-management {
+    font-size: 16px;
+  }
+
+  .contact {
+    font-size: 14px;
+  }
+}
